@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+//wszystkie testy ok
 public class RhymersJUnitTest {
 
     @Test
