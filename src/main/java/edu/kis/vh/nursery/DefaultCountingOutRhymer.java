@@ -9,6 +9,18 @@ public class DefaultCountingOutRhymer {
 
     private int total = EMPTY;
 
+    public static int getMaxSize() {
+        return MAX_SIZE;
+    }
+
+    public static int getEMPTY() {
+        return EMPTY;
+    }
+
+    public static int getFULL() {
+        return FULL;
+    }
+
     public int getTotal() {
         return total;
     }
@@ -38,4 +50,11 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int[] getNumbers() {
+        return numbers;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }
